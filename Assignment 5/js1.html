@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Name Print</title>
+    
+<script>
+    function myfun()
+    {
+        let n = prompt("please Enter Your Name");
+        if(n)
+        {
+            document.getElementById("demo").innerHTML="hello "+n+" how are you?";
+        }
+        else{
+             alert("Please Enter Your Name");
+              }
+
+    }
+</script>
+</head>
+<body>
+    <h1>First Example</h1>
+    <p>Click Button</p>
+    <button onclick="myfun()">Try It</button>
+    <p id="demo"></p>
+
+</body>
+</html>
